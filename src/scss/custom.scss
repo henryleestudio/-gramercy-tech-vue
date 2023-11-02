@@ -37,6 +37,20 @@ h1 {
   margin: 58px 0 17px 0;
 }
 
+h2, .form-group {
+  padding: 0 15px;
+}
+
+h2 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-left: 35px;
+  letter-spacing: 1.1px;
+}
+
 .actions {
 
   button {
@@ -109,15 +123,6 @@ input[type="submit"] {
   text-transform: uppercase;
 }
 
-h2, .form-group {
-  padding: 0 15px;
-}
-
-h2 {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
 #app {
   width: 600px;
   background: linear-gradient(#00000000, #5AC8E0);
@@ -126,7 +131,7 @@ h2 {
 .feedback {
   padding: 10px;
   background-color: #0E0E0E;
-  background-image: url(/images/pokemon-go-hatch.gif?ece91153564159d5c8337ae32bf9fa38);
+  background-image: url(../../assets/imgs/pokemon-go-hatch.gif);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -136,7 +141,8 @@ h2 {
 }
 
 .feedback p {
-  margin-left: 57px;
+  margin-left: 35px;
+  width: 290px;
 }
 
 @media (max-width: 768px) {
