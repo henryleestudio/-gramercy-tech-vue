@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "SharpSans-No1";
+  src: url(/fonts/SharpSans-No1-Medium.otf?4f5642b63e157c2fad357ca7afeaad36);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SharpSans-No1";
+  src: url(/fonts/SharpSans-No1-Black.otf?3c81c6b6b493ac53ecbb7cc0b36f3f25);
+  font-weight: bold;
+}
+.tabs {
+  padding: 5px 13px;
+  border: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-family: "SharpSans-No1", "Courier", "Verdana";
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #0E0E0E;
+  background-color: #C1C1C1;
+  gap: 10px;
+  margin-right: 2px;
+}
+
+body {
+  background-image: url(/images/login-bg.jpg?2ebebd7753d8d8448f9deee1d8fa2b4c);
+  font-family: "SharpSans-No1", "Courier", "Verdana";
+  font-weight: normal;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "SharpSans-No1", "Courier", "Verdana";
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 32px 0;
+}
+
+.logo {
+  width: 250px;
+  margin: 20px;
+}
+
+.register-form {
+  background-color: #0E0E0E;
+  border: 1px solid #4CBCD8;
+  padding: 5px;
+}
+
+label {
+  display: block;
+}
