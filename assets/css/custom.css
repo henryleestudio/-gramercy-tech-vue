@@ -62,6 +62,8 @@ form {
   background-color: #0E0E0E;
   border: 1px solid #5AC8E0;
   padding: 5px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 100%, 0% 20%);
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 100%, 0% 20%);
 }
 
 label {
@@ -115,6 +117,7 @@ h2 {
 
 #app {
   width: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0), #5AC8E0);
 }
 
 @media (max-width: 768px) {
@@ -140,6 +143,10 @@ h2 {
   }
   .logo {
     margin: 24px auto 30px auto;
+  }
+  form {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
   }
 }
 @media (max-width: 480px) {
