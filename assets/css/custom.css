@@ -1,11 +1,11 @@
 @font-face {
   font-family: "SharpSans-No1";
-  src: url(/fonts/SharpSans-No1-Medium.otf?4f5642b63e157c2fad357ca7afeaad36);
+  src: url('../../assets/fonts/SharpSans-No1-Medium.otf');
   font-weight: normal;
 }
 @font-face {
   font-family: "SharpSans-No1";
-  src: url(/fonts/SharpSans-No1-Black.otf?3c81c6b6b493ac53ecbb7cc0b36f3f25);
+  src: url('../../assets/fonts/SharpSans-No1-Black.otf');
   font-weight: bold;
 }
 html {
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-image: url(/images/login-bg.jpg?2ebebd7753d8d8448f9deee1d8fa2b4c);
+  background-image: url('../../assets/imgs/login-bg.jpg');
   font-family: "SharpSans-No1", "Courier", "Verdana";
   font-weight: normal;
   color: white;
@@ -128,7 +128,7 @@ input[type=submit] {
 .feedback {
   padding: 10px;
   background-color: #0E0E0E;
-  background-image: url(/images/pokemon-go-hatch.gif?ece91153564159d5c8337ae32bf9fa38);
+  background-image: url(../../assets/imgs/pokemon-go-hatch.gif);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;

@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'SharpSans-No1';
-  src: url('./../fonts/SharpSans-No1-Medium.otf');
+  src: url('../../assets/fonts/SharpSans-No1-Medium.otf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'SharpSans-No1';
-  src: url('./../fonts/SharpSans-No1-Black.otf');
+  src: url('../../assets/fonts/SharpSans-No1-Black.otf');
   font-weight: bold;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-image: url('./../../assets/imgs/login-bg.jpg');
+  background-image: url('../../assets/imgs/login-bg.jpg');
   font-family: $SharpSans-No1;
   font-weight: normal;
   color: white;
