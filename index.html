@@ -17,9 +17,9 @@
   
   <!-- Login / Register Toggles -->
     <div class="actions">
-      <button :class='[{ active: isDisabled("signin") }]' @click='setView("signin")'>SIGN IN
+      <button :class='[{ active: isDisabled("signin") }]' @click='setView("signin")'>Sign in
       </button>
-      <button :class='[{ active: isDisabled("register") }]' @click='setView("register")'>REGISTER
+      <button :class='[{ active: isDisabled("register") }]' @click='setView("register")'>Register
       </button>
     </div>
   
@@ -35,7 +35,7 @@
   <!-- Sign Up  -->
   <template id="signUp">
     <form @submit.prevent='onSubmit' ref='form' action="" class='register-form'>
-      <img class="logo" src="./assets/imgs/WSJ_Horizontal.png"/>
+      <img class="logo" src="assets/imgs/WSJ_Horizontal.png"/>
 
       <h2>NEW ACCOUNT</h2>
       <div class="form-group">

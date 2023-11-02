@@ -63,7 +63,7 @@ body {
 
 .logo {
   width: 250px;
-  margin: 20px;
+  margin: 34px 18px 21px 17px;
 }
 
 form {
@@ -74,6 +74,7 @@ form {
 
 label {
   display: block;
+  font-size: 12px;
   margin: 20px 0px -1px 0;
 }
 
@@ -84,8 +85,33 @@ input {
   border: none;
 }
 
+input::placeholder {
+  font-size: 10.5px;
+  text-transform: capitalize;
+}
+
 input[type="submit"] {
-  background-color: blue;
-  margin: 7px;
-  width: 20px;
+  font-family: $SharpSans-No1;
+  font-size: 10;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000;
+  background-color: white;
+  padding: 13px 13px 13px 13px;
+  display: flex;
+  margin: 15px auto 20px auto;
+  width: 120px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+h2, .form-group {
+  padding: 0 15px;
+}
+
+h2 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
