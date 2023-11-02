@@ -128,9 +128,8 @@ input[type=submit] {
 .feedback {
   padding: 10px;
   background-color: #0E0E0E;
-  background-image: url(../../assets/imgs/pokemon-go-hatch.gif);
+/*   background-image: url(../../assets/imgs/pokemon-go-hatch.gif); */
   background-repeat: no-repeat;
-  opacity: 0.3;
   background-position: right;
   background-size: contain;
   height: 70vh;
@@ -180,4 +179,8 @@ input[type=submit] {
   .logo {
     width: 90%;
   }
+  .feedback p {
+    width: 85%;
+    font-size: 13px;
+}
 }
