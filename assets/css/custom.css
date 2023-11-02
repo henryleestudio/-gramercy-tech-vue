@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  margin-left: 35px;
+/*   margin-left: 35px; */
   letter-spacing: 1.1px;
 }
 
@@ -138,7 +138,6 @@ input[type=submit] {
 }
 
 .feedback p {
-  margin-left: 35px;
   width: 290px;
 }
 
@@ -161,7 +160,7 @@ input[type=submit] {
     padding: 0 35px;
   }
   h2 {
-    padding: 0 35px;
+/*     padding: 0 35px; */
   }
   .logo {
     margin: 24px auto 30px auto;
