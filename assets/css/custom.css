@@ -40,6 +40,7 @@ h2, .form-group {
 h2 {
   letter-spacing: 2px;
   text-transform: uppercase;
+  padding: 0 35px;
 }
 
 h3 {
@@ -138,6 +139,7 @@ input[type=submit] {
 }
 
 .feedback p {
+  margin-left: 15px;
   width: 290px;
 }
 
@@ -158,9 +160,6 @@ input[type=submit] {
     justify-content: space-between;
     align-items: flex-end;
     padding: 0 35px;
-  }
-  h2 {
-/*     padding: 0 35px; */
   }
   .logo {
     margin: 24px auto 30px auto;
