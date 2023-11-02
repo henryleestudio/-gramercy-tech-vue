@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-
+  margin-left: 35px;
   letter-spacing: 1.1px;
 }
 
@@ -130,6 +130,7 @@ input[type=submit] {
   background-color: #0E0E0E;
   background-image: url(../../assets/imgs/pokemon-go-hatch.gif);
   background-repeat: no-repeat;
+  opacity: 0.3;
   background-position: right;
   background-size: contain;
   height: 70vh;
@@ -138,16 +139,13 @@ input[type=submit] {
 }
 
 .feedback p {
+  margin-left: 35px;
   width: 290px;
 }
 
 @media (max-width: 768px) {
   #app {
     width: 66vw;
-  }
-  .feedback {
-    background: none;
-    background-color: #0E0E0E;
   }
 }
 @media (min-width: 768px) {
@@ -173,13 +171,13 @@ input[type=submit] {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
             clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
   }
+  h3 {
+    margin-left: 0;
+    letter-spacing: 1.1px;
+  }
 }
 @media (max-width: 480px) {
   .logo {
     width: 90%;
-  }
-  h2, h3, p {
-    padding-left: 0;
-    margin-left: 0;
   }
 }
