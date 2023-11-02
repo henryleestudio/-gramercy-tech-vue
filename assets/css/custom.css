@@ -146,6 +146,10 @@ input[type=submit] {
   #app {
     width: 66vw;
   }
+  .feedback {
+    background: none;
+    background-color: #0E0E0E;
+  }
 }
 @media (min-width: 768px) {
   label {
@@ -169,10 +173,6 @@ input[type=submit] {
   form {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
             clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
-  }
-  .feedback {
-    background: none;
-    background-color: #0E0E0E;
   }
 }
 @media (max-width: 480px) {
