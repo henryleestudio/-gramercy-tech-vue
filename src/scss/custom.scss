@@ -27,7 +27,7 @@ body {
   padding: 0;
 }
 
-.title {
+h1 {
   font-family: $SharpSans-No1;
   font-weight: bold;
   font-size: 36px;
@@ -121,6 +121,22 @@ h2 {
 #app {
   width: 600px;
   background: linear-gradient(#00000000, #5AC8E0);
+}
+
+.feedback {
+  padding: 10px;
+  background-color: #0E0E0E;
+  background-image: url(/images/pokemon-go-hatch.gif?ece91153564159d5c8337ae32bf9fa38);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 70vh;
+  margin: 58px 0 17px 0;
+  border: 1px solid #5AC8E0;
+}
+
+.feedback p {
+  margin-left: 57px;
 }
 
 @media (max-width: 768px) {
