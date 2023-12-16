@@ -1,18 +1,12 @@
-# Gramercy- Tech – Vue.js
+# Gramercy Tech | Vue.js Responsive
 
 Link to project: <a target="_blank" href="https://henryleestudio.github.io/gramercy-tech-vue/">live demo</a>
 
 ![gramercy-tech-vue](https://github.com/henryleestudio/gramercy-tech-vue/assets/101936420/c593004c-a1e4-4e8a-b307-6b321db45015)
 
-<!-- ## Design -->
-I managed a Shopify e-commerce platform, created website funnels, designed & managed online advertisements, launched new products. Led 13+ creative professionals in product design, research, leadership training. Created 50+ products and designed brand materials.
-&nbsp
-• Design & create artwear / fashion collections.<br>
-• Manage the art gallery / venue space.<br>
-• Marketing the art & fashion products.<br>
+<!-- ## Description -->
+A cool sign-in and registration web platform, put together with SCSS, Webpack, Vue.js, and jQuery. Simple, stylish, and user-friendly was the intetntion for this project.
 
-Liquid | JSON | Javascript | CSS | UI/UX Design | Videography | Typography | Photoshop
-<br>
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
     <img src="https://user-images.githubusercontent.com/101936420/172000054-7df36c23-7223-488f-8ecd-9f6bb4a79ff4.png" width="10%"/>
