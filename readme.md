@@ -2,7 +2,9 @@
 
 
 <!-- ## Description -->
-A simple yet cool sign-in and registration web platform, put together with SCSS, Webpack, Vue.js, and jQuery. Simple, stylish, and user-friendly was the intetntion for this project.
+A simple yet cool sign-in and registration web platform, put together with SCSS, Webpack, Vue.js, and jQuery. 
+
+Simple, stylish, and user-friendly
 
 Link to project: <a target="_blank" href="https://henryleestudio.github.io/gramercy-tech-vue/">live demo</a>
 
