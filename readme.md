@@ -1,11 +1,12 @@
 # Gramercy Tech | Vue.js Responsive
 
-Link to project: <a target="_blank" href="https://henryleestudio.github.io/gramercy-tech-vue/">live demo</a>
-
-![gramercy-tech-vue](https://github.com/henryleestudio/gramercy-tech-vue/assets/101936420/c593004c-a1e4-4e8a-b307-6b321db45015)
 
 <!-- ## Description -->
 A simple yet cool sign-in and registration web platform, put together with SCSS, Webpack, Vue.js, and jQuery. Simple, stylish, and user-friendly was the intetntion for this project.
+
+Link to project: <a target="_blank" href="https://henryleestudio.github.io/gramercy-tech-vue/">live demo</a>
+
+![gramercy-tech-vue](https://github.com/henryleestudio/gramercy-tech-vue/assets/101936420/c593004c-a1e4-4e8a-b307-6b321db45015)
 
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
